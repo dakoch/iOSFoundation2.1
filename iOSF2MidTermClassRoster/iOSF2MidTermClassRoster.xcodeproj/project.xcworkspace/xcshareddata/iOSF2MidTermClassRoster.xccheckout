@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>24D2092C-E0EF-4F7B-99F6-EC90F0536AC9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSF2MidTermClassRoster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>45491F4BAF8E5D39FF437F3806CBB4C3A4F08007</key>
+		<string>https://github.com/dakoch/iOSFoundation2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSFoundation2Homework/iOSF2MidTermClassRoster/iOSF2MidTermClassRoster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>45491F4BAF8E5D39FF437F3806CBB4C3A4F08007</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dakoch/iOSFoundation2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>45491F4BAF8E5D39FF437F3806CBB4C3A4F08007</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>45491F4BAF8E5D39FF437F3806CBB4C3A4F08007</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSFoundation2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
