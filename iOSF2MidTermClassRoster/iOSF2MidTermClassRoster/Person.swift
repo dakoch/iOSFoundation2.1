@@ -30,6 +30,7 @@ class Person {   // 01.A
 
     var fullName          : String = ""
     var fullNameLastFirst : String = ""
+    var imagePath         : String = ""
 
     //  01.E
     init( firstName : String, lastName : String ) {
@@ -38,6 +39,8 @@ class Person {   // 01.A
         setIsStudent( false )       // self.isStudent = false
 
         setFullName( firstName, lastName : lastName )
+
+        setImagePath( lastName )
     }
 
 
@@ -49,6 +52,8 @@ class Person {   // 01.A
 
         setFullName( self.firstName, lastName: self.lastName )
         //    self.fullName  = "\(self.lastName), \(self.firstName)"
+
+        setImagePath( lastName )
     }
 
     //  01.D - Format: First Last
@@ -106,6 +111,14 @@ class Person {   // 01.A
         } else {
             setIsStudent(false)
         }
+    }
+
+    func setImagePath( lastName : String ) -> String {
+        println( "setImagePath() lastName -> \(self.lastName)")
+        println( "setImagePath() lastName -> \(getLastName())")
+        self.imagePath = "\(self.imagePath).tiff"
+        //self.imagePath = Artist.getImageFileName( lastName : String )
+        return self.imagePath
     }
 
     func getStudentInfo() -> (firstName: String , lastName : String, isStudent : Bool) {

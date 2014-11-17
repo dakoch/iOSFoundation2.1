@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7420AF081A18A6E50057A9B0 /* KandinskyI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7420AF071A18A6E50057A9B0 /* KandinskyI.tiff */; };
 		7488EA781A1692AA0009F24A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EA771A1692AA0009F24A /* AppDelegate.swift */; };
 		7488EA7A1A1692AA0009F24A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EA791A1692AA0009F24A /* ViewController.swift */; };
 		7488EA7D1A1692AA0009F24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7488EA7B1A1692AA0009F24A /* Main.storyboard */; };
@@ -16,6 +17,29 @@
 		7488EA981A1693910009F24A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EA971A1693910009F24A /* DetailViewController.swift */; };
 		7488EA9A1A1694080009F24A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EA991A1694080009F24A /* Person.swift */; };
 		7488EA9C1A1699240009F24A /* NOTES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EA9B1A1699240009F24A /* NOTES.swift */; };
+		7488EAA31A1738C00009F24A /* EvolutionOfTheWeb.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAA21A1738C00009F24A /* EvolutionOfTheWeb.tiff */; };
+		7488EAA51A17F6550009F24A /* Boccioni.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAA41A17F6550009F24A /* Boccioni.tiff */; };
+		7488EAA71A17F6750009F24A /* Dali.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAA61A17F6750009F24A /* Dali.tiff */; };
+		7488EAAE1A17F68F0009F24A /* Kandinsky.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAA81A17F68F0009F24A /* Kandinsky.tiff */; };
+		7488EAAF1A17F68F0009F24A /* Klee.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAA91A17F68F0009F24A /* Klee.tiff */; };
+		7488EAB01A17F68F0009F24A /* Klimt.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAAA1A17F68F0009F24A /* Klimt.tiff */; };
+		7488EAB11A17F68F0009F24A /* Matisse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAAB1A17F68F0009F24A /* Matisse.jpg */; };
+		7488EAB21A17F68F0009F24A /* Miro.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAAC1A17F68F0009F24A /* Miro.tiff */; };
+		7488EAB31A17F68F0009F24A /* Mondriaan.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAAD1A17F68F0009F24A /* Mondriaan.tiff */; };
+		7488EAB81A17F6D70009F24A /* Matisse.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAB41A17F6D70009F24A /* Matisse.tiff */; };
+		7488EAB91A17F6D70009F24A /* Picasso.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAB51A17F6D70009F24A /* Picasso.tiff */; };
+		7488EABA1A17F6D70009F24A /* Polock.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAB61A17F6D70009F24A /* Polock.tiff */; };
+		7488EABB1A17F6D70009F24A /* VisualisingPaintersLives.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAB71A17F6D70009F24A /* VisualisingPaintersLives.tiff */; };
+		7488EABD1A1843400009F24A /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EABC1A1843400009F24A /* Artist.swift */; };
+		7488EAC81A18A1CF0009F24A /* BoccioniI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EABE1A18A1CF0009F24A /* BoccioniI.tiff */; };
+		7488EAC91A18A1CF0009F24A /* DaliI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EABF1A18A1CF0009F24A /* DaliI.tiff */; };
+		7488EACB1A18A1CF0009F24A /* KleeI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAC11A18A1CF0009F24A /* KleeI.tiff */; };
+		7488EACC1A18A1CF0009F24A /* KlimtI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAC21A18A1CF0009F24A /* KlimtI.tiff */; };
+		7488EACD1A18A1CF0009F24A /* MatisseI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAC31A18A1CF0009F24A /* MatisseI.tiff */; };
+		7488EACE1A18A1CF0009F24A /* MiroI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAC41A18A1CF0009F24A /* MiroI.tiff */; };
+		7488EACF1A18A1CF0009F24A /* MondriaanI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAC51A18A1CF0009F24A /* MondriaanI.tiff */; };
+		7488EAD01A18A1CF0009F24A /* PicassoI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAC61A18A1CF0009F24A /* PicassoI.tiff */; };
+		7488EAD11A18A1CF0009F24A /* PolockI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7488EAC71A18A1CF0009F24A /* PolockI.tiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7420AF071A18A6E50057A9B0 /* KandinskyI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = KandinskyI.tiff; sourceTree = "<group>"; };
 		7488EA721A1692AA0009F24A /* iOSF2MidTermClassRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSF2MidTermClassRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7488EA761A1692AA0009F24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7488EA771A1692AA0009F24A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +67,29 @@
 		7488EA971A1693910009F24A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7488EA991A1694080009F24A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		7488EA9B1A1699240009F24A /* NOTES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NOTES.swift; sourceTree = "<group>"; };
+		7488EAA21A1738C00009F24A /* EvolutionOfTheWeb.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = EvolutionOfTheWeb.tiff; sourceTree = "<group>"; };
+		7488EAA41A17F6550009F24A /* Boccioni.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Boccioni.tiff; sourceTree = "<group>"; };
+		7488EAA61A17F6750009F24A /* Dali.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Dali.tiff; sourceTree = "<group>"; };
+		7488EAA81A17F68F0009F24A /* Kandinsky.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Kandinsky.tiff; sourceTree = "<group>"; };
+		7488EAA91A17F68F0009F24A /* Klee.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Klee.tiff; sourceTree = "<group>"; };
+		7488EAAA1A17F68F0009F24A /* Klimt.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Klimt.tiff; sourceTree = "<group>"; };
+		7488EAAB1A17F68F0009F24A /* Matisse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Matisse.jpg; sourceTree = "<group>"; };
+		7488EAAC1A17F68F0009F24A /* Miro.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Miro.tiff; sourceTree = "<group>"; };
+		7488EAAD1A17F68F0009F24A /* Mondriaan.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Mondriaan.tiff; sourceTree = "<group>"; };
+		7488EAB41A17F6D70009F24A /* Matisse.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Matisse.tiff; sourceTree = "<group>"; };
+		7488EAB51A17F6D70009F24A /* Picasso.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Picasso.tiff; sourceTree = "<group>"; };
+		7488EAB61A17F6D70009F24A /* Polock.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Polock.tiff; sourceTree = "<group>"; };
+		7488EAB71A17F6D70009F24A /* VisualisingPaintersLives.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = VisualisingPaintersLives.tiff; sourceTree = "<group>"; };
+		7488EABC1A1843400009F24A /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		7488EABE1A18A1CF0009F24A /* BoccioniI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = BoccioniI.tiff; sourceTree = "<group>"; };
+		7488EABF1A18A1CF0009F24A /* DaliI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DaliI.tiff; sourceTree = "<group>"; };
+		7488EAC11A18A1CF0009F24A /* KleeI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = KleeI.tiff; sourceTree = "<group>"; };
+		7488EAC21A18A1CF0009F24A /* KlimtI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = KlimtI.tiff; sourceTree = "<group>"; };
+		7488EAC31A18A1CF0009F24A /* MatisseI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MatisseI.tiff; sourceTree = "<group>"; };
+		7488EAC41A18A1CF0009F24A /* MiroI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MiroI.tiff; sourceTree = "<group>"; };
+		7488EAC51A18A1CF0009F24A /* MondriaanI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = MondriaanI.tiff; sourceTree = "<group>"; };
+		7488EAC61A18A1CF0009F24A /* PicassoI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = PicassoI.tiff; sourceTree = "<group>"; };
+		7488EAC71A18A1CF0009F24A /* PolockI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = PolockI.tiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +131,7 @@
 		7488EA741A1692AA0009F24A /* iOSF2MidTermClassRoster */ = {
 			isa = PBXGroup;
 			children = (
+				7488EAA11A1734AB0009F24A /* Images */,
 				7488EAA01A1699920009F24A /* Delegates */,
 				7488EA9F1A1699840009F24A /* ControllersLayer */,
 				7488EA9E1A1699760009F24A /* ModelsLayer */,
@@ -132,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				7488EA991A1694080009F24A /* Person.swift */,
+				7488EABC1A1843400009F24A /* Artist.swift */,
 			);
 			name = ModelsLayer;
 			sourceTree = "<group>";
@@ -151,6 +201,36 @@
 				7488EA771A1692AA0009F24A /* AppDelegate.swift */,
 			);
 			name = Delegates;
+			sourceTree = "<group>";
+		};
+		7488EAA11A1734AB0009F24A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7420AF071A18A6E50057A9B0 /* KandinskyI.tiff */,
+				7488EABE1A18A1CF0009F24A /* BoccioniI.tiff */,
+				7488EABF1A18A1CF0009F24A /* DaliI.tiff */,
+				7488EAC11A18A1CF0009F24A /* KleeI.tiff */,
+				7488EAC21A18A1CF0009F24A /* KlimtI.tiff */,
+				7488EAC31A18A1CF0009F24A /* MatisseI.tiff */,
+				7488EAC41A18A1CF0009F24A /* MiroI.tiff */,
+				7488EAC51A18A1CF0009F24A /* MondriaanI.tiff */,
+				7488EAC61A18A1CF0009F24A /* PicassoI.tiff */,
+				7488EAC71A18A1CF0009F24A /* PolockI.tiff */,
+				7488EAB41A17F6D70009F24A /* Matisse.tiff */,
+				7488EAB51A17F6D70009F24A /* Picasso.tiff */,
+				7488EAB61A17F6D70009F24A /* Polock.tiff */,
+				7488EAB71A17F6D70009F24A /* VisualisingPaintersLives.tiff */,
+				7488EAA81A17F68F0009F24A /* Kandinsky.tiff */,
+				7488EAA91A17F68F0009F24A /* Klee.tiff */,
+				7488EAAA1A17F68F0009F24A /* Klimt.tiff */,
+				7488EAAB1A17F68F0009F24A /* Matisse.jpg */,
+				7488EAAC1A17F68F0009F24A /* Miro.tiff */,
+				7488EAAD1A17F68F0009F24A /* Mondriaan.tiff */,
+				7488EAA61A17F6750009F24A /* Dali.tiff */,
+				7488EAA21A1738C00009F24A /* EvolutionOfTheWeb.tiff */,
+				7488EAA41A17F6550009F24A /* Boccioni.tiff */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +314,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				7488EA7D1A1692AA0009F24A /* Main.storyboard in Resources */,
+				7488EAB81A17F6D70009F24A /* Matisse.tiff in Resources */,
+				7488EAAF1A17F68F0009F24A /* Klee.tiff in Resources */,
+				7488EAD01A18A1CF0009F24A /* PicassoI.tiff in Resources */,
+				7488EACE1A18A1CF0009F24A /* MiroI.tiff in Resources */,
+				7488EAB11A17F68F0009F24A /* Matisse.jpg in Resources */,
+				7488EAC91A18A1CF0009F24A /* DaliI.tiff in Resources */,
 				7488EA821A1692AA0009F24A /* LaunchScreen.xib in Resources */,
+				7488EAA71A17F6750009F24A /* Dali.tiff in Resources */,
+				7488EACF1A18A1CF0009F24A /* MondriaanI.tiff in Resources */,
+				7488EABA1A17F6D70009F24A /* Polock.tiff in Resources */,
+				7488EAD11A18A1CF0009F24A /* PolockI.tiff in Resources */,
+				7488EAB01A17F68F0009F24A /* Klimt.tiff in Resources */,
+				7488EACD1A18A1CF0009F24A /* MatisseI.tiff in Resources */,
+				7488EAA31A1738C00009F24A /* EvolutionOfTheWeb.tiff in Resources */,
+				7488EAC81A18A1CF0009F24A /* BoccioniI.tiff in Resources */,
 				7488EA7F1A1692AA0009F24A /* Images.xcassets in Resources */,
+				7488EACC1A18A1CF0009F24A /* KlimtI.tiff in Resources */,
+				7488EAB31A17F68F0009F24A /* Mondriaan.tiff in Resources */,
+				7488EABB1A17F6D70009F24A /* VisualisingPaintersLives.tiff in Resources */,
+				7488EACB1A18A1CF0009F24A /* KleeI.tiff in Resources */,
+				7420AF081A18A6E50057A9B0 /* KandinskyI.tiff in Resources */,
+				7488EAB21A17F68F0009F24A /* Miro.tiff in Resources */,
+				7488EAAE1A17F68F0009F24A /* Kandinsky.tiff in Resources */,
+				7488EAA51A17F6550009F24A /* Boccioni.tiff in Resources */,
+				7488EAB91A17F6D70009F24A /* Picasso.tiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7488EABD1A1843400009F24A /* Artist.swift in Sources */,
 				7488EA981A1693910009F24A /* DetailViewController.swift in Sources */,
 				7488EA7A1A1692AA0009F24A /* ViewController.swift in Sources */,
 				7488EA9C1A1699240009F24A /* NOTES.swift in Sources */,

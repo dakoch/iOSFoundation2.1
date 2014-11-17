@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         super.viewDidLoad()
 
         // Do any additional setup after loading the view, typically from a nib.
-        self.title = "Class Roster Fall 2014"
+        self.title = "Art 101 Roster - Fall 2014"
 
         createPeople()
 
@@ -69,22 +69,26 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let selectedIndexPath = self.tableView.indexPathForSelectedRow()
             var personToPass : Person = self.names[selectedIndexPath!.row]
             println( "personToPass -> lastName[\(personToPass.lastName)]")
-            println( "personToPass -> lastName[\(personToPass.firstName)]")
-            detailViewController.selectedPerson.setLastName( personToPass.lastName ) //= personToPass
+            println( "personToPass -> firstName[\(personToPass.firstName)]")
+            println( "personToPass -> isStudent[\(personToPass.isStudent)]")
+            // detailViewController.selectedPerson.setLastName( personToPass.lastName ) //= personToPass
             detailViewController.selectedPerson = personToPass
         }
     }
 
     //  02.C
     func createPeople() {
-        var person1 : Person = Person(firstName: "Donner",  lastName: "Reindeer", isStudent: false)
-        var person2 : Person = Person(firstName: "Blitzen", lastName: "Reindeer", isStudent: false)
-        var person3 : Person = Person(firstName: "Rocky T", lastName: "Squirell", isStudent: false)
-        var person4 : Person = Person(firstName: "Bullwinkle T" , lastName: "Moose", isStudent: true)
-        var person5 : Person = Person(firstName: "George", lastName: "Washington", isStudent: false)
-        var person6 : Person = Person(firstName: "Tom", lastName: "Tuesday", isStudent: true)
-        var person7 : Person = Person(firstName: "Santa", lastName: "Clause", isStudent: false)
-        var person8 : Person = Person(firstName: "Mickey T", lastName: "Mouse", isStudent: false)
+        var person1  : Person = Person(firstName: "Vasilij Vasil'evic'",  lastName: "Kandinsky", isStudent: false)
+        var person2  : Person = Person(firstName: "Salvador Domingo Felipe Jacinto", lastName: "Dali", isStudent: false)
+        var person3  : Person = Person(firstName: "Pablo Diego Jose", lastName: "Picasso", isStudent: false)
+        var person4  : Person = Person(firstName: "Umberto" , lastName: "Boccioni", isStudent: true)
+        var person5  : Person = Person(firstName: "Paul", lastName: "Klee", isStudent: false)
+        var person6  : Person = Person(firstName: "Gustav", lastName: "Klimt", isStudent: true)
+        var person7  : Person = Person(firstName: "Henri-Emile-Benoit", lastName: "Matisse", isStudent: false)
+        var person8  : Person = Person(firstName: "Joan Miro Ferra", lastName: "Miro", isStudent: false)
+        var person9  : Person = Person(firstName: "Pieter Cornelis", lastName: "Mondriaan", isStudent: false)
+        var person10 : Person = Person(firstName: "Jackson", lastName: "Polock", isStudent: false)
+
 
         addAPerson( person1 )
         addAPerson( person2 )
@@ -94,6 +98,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         addAPerson( person6 )
         addAPerson( person7 )
         addAPerson( person8 )
+        addAPerson( person9 )
+        addAPerson( person10 )
+
 
         println("Created \(self.names.count) new 'names' in the 'PERSON' class")
     }
