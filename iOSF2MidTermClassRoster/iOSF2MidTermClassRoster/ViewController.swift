@@ -1,7 +1,7 @@
 /* -----------------------------------------------------------------------------
 //  FileName: ViewController.swift           02.A
-//   Project: iOSF2MidTermClassRoster
-//
+//   Project: iOSF2FinalClassRoster / IOS Foundation II Seattle B24 / 2014.11.19
+/
 //  Created by Gru on 11/05/14.
 //  Copyright (c) 2014 Gru/CodeFellows. All rights reserved.
 //

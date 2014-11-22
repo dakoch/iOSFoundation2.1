@@ -1,6 +1,6 @@
 /* -----------------------------------------------------------------------------
-//  File Name: DetailViewController.swift
-//    Project: iOSF2MidTermClassRoster
+//     File : DetailViewController.swift
+//  Project : iOSF2FinalClassRoster / IOS Foundation II Seattle B24 / 2014.11.19
 //
 //  Created by Gru on 10/27/14.
 //  Copyright (c) 2014 GruTech/CodeFellows. All rights reserved.

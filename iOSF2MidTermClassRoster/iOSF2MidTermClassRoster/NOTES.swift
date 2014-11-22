@@ -1,7 +1,7 @@
 /*  ------------------------------------------------------------------------------------------------------------------
 //
 //     File Name:   NOTES.txt
-//  Project Name:   iOSF2MidTermClassRoster
+//  Project Name:   iOSF2FinalClassRoster / IOS Foundation II Seattle B24 / 2014.11.19
 //
 //  Created by Gru on 11/09/14.
 //  Copyright (c) 2014 GruTech. All rights reserved.

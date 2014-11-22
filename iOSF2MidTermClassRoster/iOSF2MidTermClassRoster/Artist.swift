@@ -1,6 +1,6 @@
 //
-//  Artist.swift
-//  iOSF2MidTermClassRoster
+//     File : Artist.swift
+//  Project : iOSF2FinalClassRoster / IOS Foundation II Seattle B24 / 2014.11.19
 //
 //  Created by Gru on 11/15/14.
 //  Copyright (c) 2014 GruTech. All rights reserved.

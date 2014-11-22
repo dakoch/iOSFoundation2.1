@@ -1,6 +1,6 @@
 /* -----------------------------------------------------------------------------
 //  File Name: AppDelegate.swift
-//    Project: iOSF2MidTermClassRoster
+//    Project: iOSF2FinalClassRoster
 //
 //  Created by Gru on 10/27/14.
 //  Copyright (c) 2014 GruTech/CodeFellows. All rights reserved.

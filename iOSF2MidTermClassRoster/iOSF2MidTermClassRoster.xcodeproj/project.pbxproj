@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7420AF081A18A6E50057A9B0 /* KandinskyI.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 7420AF071A18A6E50057A9B0 /* KandinskyI.tiff */; };
+		74227E4F1A20191800EC05D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74227E4E1A20191800EC05D9 /* Default-568h@2x.png */; };
 		7488EA781A1692AA0009F24A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EA771A1692AA0009F24A /* AppDelegate.swift */; };
 		7488EA7A1A1692AA0009F24A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488EA791A1692AA0009F24A /* ViewController.swift */; };
 		7488EA7D1A1692AA0009F24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7488EA7B1A1692AA0009F24A /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		7420AF071A18A6E50057A9B0 /* KandinskyI.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = KandinskyI.tiff; sourceTree = "<group>"; };
+		74227E4E1A20191800EC05D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7488EA721A1692AA0009F24A /* iOSF2MidTermClassRoster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSF2MidTermClassRoster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7488EA761A1692AA0009F24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7488EA771A1692AA0009F24A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		7488EA691A1692AA0009F24A = {
 			isa = PBXGroup;
 			children = (
+				74227E4E1A20191800EC05D9 /* Default-568h@2x.png */,
 				7488EA741A1692AA0009F24A /* iOSF2MidTermClassRoster */,
 				7488EA8A1A1692AA0009F24A /* iOSF2MidTermClassRosterTests */,
 				7488EA731A1692AA0009F24A /* Products */,
@@ -324,6 +327,7 @@
 				7488EAA71A17F6750009F24A /* Dali.tiff in Resources */,
 				7488EACF1A18A1CF0009F24A /* MondriaanI.tiff in Resources */,
 				7488EABA1A17F6D70009F24A /* Polock.tiff in Resources */,
+				74227E4F1A20191800EC05D9 /* Default-568h@2x.png in Resources */,
 				7488EAD11A18A1CF0009F24A /* PolockI.tiff in Resources */,
 				7488EAB01A17F68F0009F24A /* Klimt.tiff in Resources */,
 				7488EACD1A18A1CF0009F24A /* MatisseI.tiff in Resources */,
@@ -484,7 +488,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iOSF2MidTermClassRoster/Info.plist;
+				INFOPLIST_FILE = "iOSF2 ";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -494,7 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iOSF2MidTermClassRoster/Info.plist;
+				INFOPLIST_FILE = "iOSF2 ";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -512,7 +516,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = iOSF2MidTermClassRosterTests/Info.plist;
+				INFOPLIST_FILE = iOSF2FinalClassRosterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSF2MidTermClassRoster.app/iOSF2MidTermClassRoster";
@@ -527,7 +531,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = iOSF2MidTermClassRosterTests/Info.plist;
+				INFOPLIST_FILE = iOSF2FinalClassRosterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSF2MidTermClassRoster.app/iOSF2MidTermClassRoster";

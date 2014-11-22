@@ -1,15 +1,15 @@
 //
-//  iOSF2MidTermClassRosterTests.swift
-//  iOSF2MidTermClassRosterTests
+//     File : iOSF2FinalClassRoster.swift
+//  Project : iOSF2FinalClassRoster / IOS Foundation II Seattle B24 / 2014.11.19
 //
-//  Created by Gru on 11/14/14.
+//  Created by Gru on 11/15/14.
 //  Copyright (c) 2014 GruTech. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class iOSF2MidTermClassRosterTests: XCTestCase {
+class iOSF2FinalClassRosterTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

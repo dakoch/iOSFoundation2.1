@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOSF2MidTermClassRoster.xcodeproj">
+      location = "container:iOSF2MidTermClassRoster/iOSF2MidTermClassRoster.xcodeproj">
    </FileRef>
 </Workspace>
